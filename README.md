@@ -59,9 +59,6 @@ My experimental setup:
 ## 📫 **Let's Connect**
 - **Website**: [My Research Portfolio](https://www.khodami.site)
 - **Email**: ahsan.khodami@gmail.com
-
-## ⭕ **Access to this profile**
-- This account is handled by also a web designer friend
 ---
 
 📈 *"Science is not only a discipline of reason but, also, one of romance and passion."* – Stephen Hawking  
