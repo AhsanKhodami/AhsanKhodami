@@ -1,4 +1,4 @@
-# Welcome to Ethan's GitHub 👨‍🔬✨  
+# Welcome to My GitHub 👨‍🔬✨  
 
 
 Hello! I'm **Ahsan Khodami**, a **Marie Curie Fellow** at the University of Padua, passionate about uncovering the intricacies of visual processing and brain mechanisms. My work bridges **science** and **technology**, focusing on **hemianopia**, **EEG**, and **eye-tracking experiments**.
