@@ -38,16 +38,6 @@ I actively contribute to open-source projects, including:
 
 ---
 
-## 🖥️ **Experimental Design**
-
-My experimental setups are designed to evaluate various perceptual and cognitive phenomena:
-
-- **16-Box Spatial Arrangement**: Used for **target detection** with varying inter-stimulus intervals (ISIs).
-- **Cue-Based Spatial Predictions**: Trials incorporate cues (e.g., circle, square, triangle) that guide spatial predictions, examining how these cues influence response accuracy.
-- **Temporal Resolution**: ISI parameters are adjusted to explore improvements in visual processing speed across different tasks and experimental conditions.
-
----
-
 ## 🌟 **Fun Facts**
 
 - 🐾 **Proud Cat Dad**: Meet **Kiki**, my playful feline companion.
