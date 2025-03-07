@@ -21,10 +21,7 @@ Here are some key projects I’ve been working on:
 ### **1. Temporal Processing in Hemianopia**
 - This project explores visual processing speed in individuals with hemianopia, using **eye-trackers** and **EEG** to model how temporal resolution and spatial cues influence task performance.
 
-### **2. Aperiodic EEG in Visual Tasks**
-- Presented findings from the paper *"Aperiodic EEG Predicts Variability of Visual Temporal Processing"* by Deodato & Melcher, enhancing our understanding of how aperiodic EEG activity correlates with visual task performance.
-
-### **3. Pupil Size & Blink Dynamics**
+### **2. Pupil Size & Blink Dynamics**
 - I’ve developed algorithms to detect blinks and reconstruct pupil size during occlusions, modeling recovery using physiological dynamics and noise simulations to mirror natural patterns.
 
 ---
@@ -35,6 +32,7 @@ I actively contribute to open-source projects, including:
 
 - **[asc2csv](https://pypi.org/project/asc2csv/)**: A Python package for converting EyeLink `.asc` files to `.csv` format for data analysis.
 - **[prpip](https://pypi.org/project/prpip/)**: An automation tool for managing pipeline workflows, featuring version control and deployment via **GitHub Actions**.
+- **[etformat](https://pypi.org/project/etformat)**: EyeTracking EDF format conversion and basic analysis
 
 > I use **setuptools_scm** for version management and **GitHub Actions** for continuous integration, automating the build and publishing process for seamless PyPI deployment.
 
