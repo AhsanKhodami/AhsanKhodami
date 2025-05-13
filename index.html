@@ -226,6 +226,13 @@
     </footer>
 
     <script>
+        // Hide loader when page is loaded
+        window.addEventListener('load', function() {
+            const loader = document.querySelector('.loading-screen');
+            loader.style.transition = 'opacity 0.5s';
+            loader.style.opacity = '0';
+            setTimeout(() => loader.remove(), 500);
+        });
         function toggleMenu() {
             const menu = document.querySelector('.nav-menu');
             menu.classList.toggle('active');
