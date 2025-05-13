@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Dr. Ahsan Khodami - Vision and attention researcher">
+    <meta name="keywords" content="Ahsan Khodami contact, vision researcher contact">
+    <meta name="author" content="Dr. Ahsan Khodami">
+    
+    <title>Contact - Dr. Ahsan Khodami</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header class="site-header">
+        <nav class="main-nav">
+            <a href="index.html" class="site-logo">Dr. Ahsan Khodami</a>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="packages.html">Packages & Code</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="page-container">
+            <h1 class="page-title">Contact</h1>
+            
+            <!-- Contact Information -->
+            <div class="contact-card">
+                <h2 class="section-title">Get in Touch</h2>
+                <div class="contact-item">
+                    <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+                    <span>ahsan.khodami@institution.edu</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon"><i class="fas fa-building"></i></span>
+                    <span>Department of Your Department<br>
+                    University Name<br>
+                    Your Address</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon"><i class="fas fa-phone"></i></span>
+                    <span>Your Phone Number</span>
+                </div>
+            </div>
+
+            <!-- Social Media & Professional Links -->
+            <div class="content-block">
+                <h2 class="section-title">Professional Networks</h2>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/ahsankhodami" class="social-link linkedin" title="LinkedIn Profile">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://researchgate.net/profile/Ahsan_Khodami" class="social-link researchgate" title="ResearchGate Profile">
+                        <i class="fab fa-researchgate"></i>
+                        <span>ResearchGate</span>
+                    </a>
+                    <a href="https://orcid.org/0000-0000-0000-0000" class="social-link orcid" title="ORCID Profile">
+                        <i class="fab fa-orcid"></i>
+                        <span>ORCID</span>
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=XXXXXXX" class="social-link scholar" title="Google Scholar Profile">
+                        <i class="fab fa-google"></i>
+                        <span>Google Scholar</span>
+                    </a>
+                    <a href="https://github.com/ahsankhodami" class="social-link github" title="GitHub Profile">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="content-block">
+                <h2 class="section-title">Send a Message</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name *</label>
+                        <input type="text" id="name" name="name" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email *</label>
+                        <input type="email" id="email" name="email" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject *</label>
+                        <input type="text" id="subject" name="subject" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message *</label>
+                        <textarea id="message" name="message" rows="6" class="form-textarea" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+
+            <!-- Office Hours -->
+            <div class="content-block">
+                <h2 class="section-title">Office Hours</h2>
+                <div class="content-grid two-column">
+                    <div class="card">
+                        <h3>Regular Office Hours</h3>
+                        <ul>
+                            <li><strong>Tuesday:</strong> 2:00 PM - 4:00 PM</li>
+                            <li><strong>Thursday:</strong> 10:00 AM - 12:00 PM</li>
+                            <li><strong>Friday:</strong> 1:00 PM - 3:00 PM</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Appointments</h3>
+                        <p>For meetings outside of regular office hours, please email me to schedule an appointment. I'm generally available for virtual meetings via Zoom or in-person meetings on campus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Dr. Ahsan Khodami. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.nav-menu');
+            menu.classList.toggle('active');
+        }
+
+        document.addEventListener('click', function(e) {
+            const menu = document.querySelector('.nav-menu');
+            const hamburger = document.querySelector('.hamburger');
+            
+            if (!menu.contains(e.target) && !hamburger.contains(e.target)) {
+                menu.classList.remove('active');
+            }
+        });
+
+        // Handle form submission
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! This is a demo form. In the actual implementation, this would send an email.');
+        });
+    </script>
+</body>
+</html>
