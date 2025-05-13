@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ahsankhodami.github.io/sitemap.xml
