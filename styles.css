@@ -907,7 +907,6 @@ body {
     max-width: 250px;
     justify-content: center;
 }
-}
 
 @media (max-width: 480px) {
     .page-container {
