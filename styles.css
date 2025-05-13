@@ -843,3 +843,22 @@ body {
         display: none;
     }
 }
+
+/* Remove default link styling */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Style for external links */
+a[target="_blank"] {
+    display: inline-flex;
+    align-items: center;
+}
+
+/* External link icon styling */
+.fa-external-link-alt {
+    margin-left: 4px;
+    font-size: 0.8em;
+    color: inherit;
+}
